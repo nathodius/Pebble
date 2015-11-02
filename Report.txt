@@ -16,7 +16,10 @@ Section 2 – Team Member Responsibilities
 Section 3 – Conclusions
 
 	Overall, this project went smoothly, but there were a couple of obstacles faced: primarily we were challenged by setting up zeroconf, as well as getting initial communications set up via the rabbitMQ server and indicating the pebble count in the bottle via the LED’s.
+	
 	The rabbitMQ server had to be installed and configured for use in this project.  A new user was created and its permissions set. The server must be running in order for the server and client to utilize the message queue. One concern that we addressed was over whether or not messages were being properly consumed, allowing for the queue to be cleared after time. 
+	
 	zeroconf is a means of broadcasting device information on a local area network (LAN). It’s use for this assignment is to remove the need for barcoding the server’s IP address in the client-side code. We faced challenges installing an implementation of zeroconf and broadcasting the server’s information for the client to subscribe to…
+	
 	This assignment was a good experience that offered a lot to learn in the area of network programming, specifically concurrency and socket communication in Python. Hardware malfunctions, requiring SD card reimaging, proved to be a headache. The team is still working on building a more permanent interface to each Raspberry Pi, by employing static IP’s. This assignment served as a good introduction to network applications, the Twitter API and the Raspberry Pi platform. 
 
